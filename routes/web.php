@@ -30,7 +30,7 @@ Route::get('/help',
 	{ 
 		return view('static_pages/help'); 
 	}
-);
+)->name('help');
 Route::get('/about', 	
 	function () 
 	{ 
