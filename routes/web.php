@@ -14,26 +14,33 @@ Route::get('/',
 	function () { return view('welcome'); }
 );
 */
-Route::get('/homef', 'StaticPageController@home');
-Route::get('/helpf', 'StaticPageController@help');
-Route::get('/aboutf','StaticPageController@about');
+//第一种 写法  简单清晰
+Route::get('/', 'StaticPageController@home')->name('hm');
+Route::get('/help', 'StaticPageController@help')->name('hp');
+Route::get('/about','StaticPageController@about')->name('ab');
+Route::get('/signup','UserController@create')->name('sgu');
 
-
+/*
+第二种写法
 Route::get('/', 	
 	function () 
 	{ 
 		return view('static_pages/home'); 
 	}
-);
+)->name('hm');
 Route::get('/help', 	
 	function () 
 	{ 
 		return view('static_pages/help'); 
 	}
-)->name('help');
+)->name('hp'); //name 里 不能有路径 切记 切记啊
 Route::get('/about', 	
 	function () 
 	{ 
 		return view('static_pages/about'); 
 	}
-);
+)->name('ab');
+#)->name('/ab'); 这是 错的，总会报错 ：
+Route::get('/signup',function(){ return view('static_pages/signup');})->name('sign');
+
+*/

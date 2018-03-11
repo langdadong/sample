@@ -1,12 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <div class="col-md-offset-1 col-md-10">
-      <a href="/" id="logo">Sample App</a>
+<!--      <a href="/" id="logo">首页head</a>-->
+      <a href="{{route('hm')}}" id="logo">首页head</a>
       <nav>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/help">帮助</a></li>
-          <li><a href="{{route('help')}}">帮助</a></li>
-          <li><a href="#">登录</a></li>
+          <li><a href="{{route('hp')}}">帮助head</a></li>
+          <li><a href="#">登录head</a></li>
         </ul>
       </nav>
     </div>
