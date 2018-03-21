@@ -1,27 +1,31 @@
 <!-- home.blade.php -->
-<!-- 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Sample App</title>
-</head>
-<body>
-  <h1>主页</h1>
-</body>
-</html> -->
 
 @extends('layouts.default')
 @section('content')
 <div class="jumbotron">
-    <h1>Hello Laravel</h1>
-    <p class="lead">
-      你现在所看到的是 <a href="https://laravel-china.org/courses/laravel-essential-training-5.1">Laravel 入门教程</a> 的示例项目主页。
-    </p>
-    <p>
-      一切，将从这里开始。
-    </p>
-    <p>
-      <a class="btn btn-lg btn-success" href="{{route('sgu')}}" role="button">现在注册</a>
-    </p>
-  </div>
+<p>
+业精于勤而荒于嬉。行成于思而毁于随。
+<br>
+点滴积累，让我的青春无悔。
+<br>
+一切，将从这里开始。
+</p>
+<p>
+<a href="https://laravel-china.org">Laravel China 首页</a>
+<p><a href="https://laravel-china.org/courses">Laravel 5.5 教程</a><br/>
+<a href="https://laravel-china.org/courses/laravel-essential-training-5.5">《Web 开发实战入门》</a>
+&nbsp;
+&nbsp;
+<a href="https://laravel-china.org/courses/laravel-intermediate-training-5.5">《Web 开发实战进阶》</a>
+</p>
+<p>
+<a class="btn btn-lg btn-success" role="button" href="
+https://laravel-china.org/courses/laravel-essential-training-5.5/576/database-migration
+">接着上次位置看 </a>
+</p>
+<p>
+<a class="btn btn-lg btn-info" href="{{route('sgu')}}" >现在注册</a>
+<a class="btn btn-lg btn-danger" href="{{route('sgu')}}" >btn-danger</a>
+</p>
+</div>
 @stop
