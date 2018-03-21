@@ -11,6 +11,8 @@
 一切，将从这里开始。
 </p>
 <p>
+<a href="http://www.golaravel.com/">Laravel 中文</a>
+&nbsp;
 <a href="https://laravel-china.org">Laravel China 首页</a>
 <p><a href="https://laravel-china.org/courses">Laravel 5.5 教程</a><br/>
 <a href="https://laravel-china.org/courses/laravel-essential-training-5.5">《Web 开发实战入门》</a>
