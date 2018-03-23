@@ -22,12 +22,14 @@
 </p>
 <p>
 <a class="btn btn-lg btn-success" role="button" href="
-https://laravel-china.org/courses/laravel-essential-training-5.5/576/database-migration
+https://laravel-china.org/courses/laravel-essential-training-5.5/582/summary
 ">接着上次位置看 </a>
 </p>
 <p>
 <a class="btn btn-lg btn-info" href="{{route('sgu')}}" >现在注册</a>
 <a class="btn btn-lg btn-danger" href="{{route('sgu')}}" >btn-danger</a>
 </p>
+<a class="btn btn-md btn-primary " href="http://www.lvyestudy.com/" >绿叶</a>
+
 </div>
 @stop
