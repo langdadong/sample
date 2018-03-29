@@ -15,9 +15,9 @@
  @extends('layouts.default')
  @section('title','帮助-标题')
  @section('content')
- <hp class="class-help"> 
-        {{}}... route('hp')... Route::get('url',path@method)->name('hp');
-</hp>
+<!-- <hp class="class-help"> 
+      "  {{}}... route('hp')... Route::get('url',path@method)->name('hlp');"
+</hp>-->
  <h1>帮助页1</h1>
  <h2>帮助页2</h2>
  <h3>帮助页3</h3>

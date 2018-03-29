@@ -16,9 +16,11 @@ Route::get('/',
 */
 //第一种 写法  简单清晰
 Route::get('/', 'StaticPageController@home')->name('hm');
-Route::get('/help', 'StaticPageController@help')->name('hp');
+Route::get('/hlp', 'StaticPageController@hlp')->name('hlp');
 Route::get('/about','StaticPageController@about')->name('ab');
 Route::get('/signup','UserController@create')->name('sgu');
+Route::get('/users/{user}', 'UsersController@show')->name('users.show');
+Route::resource('/users','UserController');
 
 /*
 第二种写法
