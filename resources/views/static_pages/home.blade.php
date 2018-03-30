@@ -1,4 +1,4 @@
-<!-- home.blade.php -->
+R!-- home.blade.php -->
 
 @extends('layouts.default')
 @section('content')
@@ -33,6 +33,10 @@ https://laravel-china.org/courses/laravel-essential-training-5.5/584/according-t
 <a class="btn btn-md btn-primary " href="http://www.lvyestudy.com/" >绿叶</a>
 <a class="btn btn-md btn-primary " href="https://segmentfault.com/q/1010000004567615/a-1020000004569903" >view ...</a>
 </p>
+走过的路:
+SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
+尝试：https://www.linuxidc.com/Linux/2016-07/133752.htm
+正解：https://segmentfault.com/a/1190000008416200
 
 </div>
 @stop

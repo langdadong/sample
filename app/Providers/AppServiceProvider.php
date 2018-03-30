@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //EastGreatWolf  参考网址--https://www.qushang.net/laravel/
+				\Schema::defaultStringLength(191);
     }
 
     /**
