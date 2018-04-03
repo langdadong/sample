@@ -23,7 +23,7 @@ R!-- home.blade.php -->
 <p>
 <div>
 		<a class="btn btn-lg btn-success col-xs-offset-1 col-xs-3" role="button" href="
-https://laravel-china.org/courses/laravel-essential-training-5.5/584/according-to-the-users-information
+https://laravel-china.org/courses/laravel-essential-training-5.5/592/the-session
 				">接着上次位置看 </a>
 		<a class="btn btn-lg btn-info col-xs-offset-1 col-xs-3" href="{{route('sgu')}}" >现在注册</a>
 		<a class="btn btn-lg btn-danger col-xs-offset-1 col-xs-3 " href="http://v3.bootcss.com/css/" >bootstrap-中文文档</a>
@@ -32,6 +32,9 @@ https://laravel-china.org/courses/laravel-essential-training-5.5/584/according-t
 <p>
 <a class="btn btn-md btn-primary " href="http://www.lvyestudy.com/" >绿叶</a>
 <a class="btn btn-md btn-primary " href="https://segmentfault.com/q/1010000004567615/a-1020000004569903" >view ...</a>
+<a class="btn btn-md btn-primary " href="
+http://laravelacademy.org/post/2774.html
+" >DEBUG ...</a>
 </p>
 走过的路:
 SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))

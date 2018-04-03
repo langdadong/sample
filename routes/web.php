@@ -21,7 +21,9 @@ Route::get('/about','StaticPageController@about')->name('ab');
 Route::get('/signup','UserController@create')->name('sgu');
 Route::get('/users/{user}', 'UsersController@show')->name('users.show');
 Route::resource('/users','UserController');
-
+Route::get('/lgin','SessionController@create')->name('lgin');
+Route::post('/login','SessionController@store')->name('login');
+Route::delete('/logout','SessionController@destory')->name('logout');
 /*
 第二种写法
 Route::get('/', 	
