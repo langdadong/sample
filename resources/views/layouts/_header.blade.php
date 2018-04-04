@@ -5,7 +5,7 @@
       <nav>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="{{route('hlp')}}">帮助</a></li>
-          <li><a href="#">登录</a></li>
+          <li><a href="{{route('lgin')}}">登录</a></li>
         </ul>
       </nav>
     </div>

@@ -34,12 +34,17 @@ https://laravel-china.org/courses/laravel-essential-training-5.5/592/the-session
 <a class="btn btn-md btn-primary " href="https://segmentfault.com/q/1010000004567615/a-1020000004569903" >view ...</a>
 <a class="btn btn-md btn-primary " href="
 http://laravelacademy.org/post/2774.html
-" >DEBUG ...</a>
+" >DEBUG</a>
+<a class="btn btn-md btn-primary " href="
+https://www.cnblogs.com/coolworld/p/5602610.html
+" >vim php IDE </a>
 </p>
 走过的路:
 SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
 尝试：https://www.linuxidc.com/Linux/2016-07/133752.htm
 正解：https://segmentfault.com/a/1190000008416200
+---
+php artisan config:cache
 
 </div>
 @stop
