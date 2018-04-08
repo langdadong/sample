@@ -20,14 +20,25 @@ class SessionController extends Controller
 			'email'=>'required|email|max:255',
 			'password'=>'required'
 		]);
-		if( Auth::attempt($credentials)){
+
+
+//---------------------------------------------------------------
+		//return redirect()->route( attempt($credentials));
+		
+		//$t='users.show';
+		//return redirect()->route( $t,1 );
+
+//---------------------------------------------------------------
+		if( Auth::attempt(array('email' => $email, 'password' => $password)) ){
 				session()->flash('success','Welcome...');
-				return redirect()->route('users.show',[Auth::user()]);
+				return redirect()->route('users.show',1);
+				//return redirect()->route('users.show',[Auth::user()]);
 
 		}
 		else{
 				session()->flash('danger','Faile...');
-				return redirect()->back();
+				return redirect()->route('hlp');
+				//return redirect()->back();
 		}
 
 	}

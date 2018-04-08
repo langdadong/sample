@@ -38,6 +38,12 @@ http://laravelacademy.org/post/2774.html
 <a class="btn btn-md btn-primary " href="
 https://www.cnblogs.com/coolworld/p/5602610.html
 " >vim php IDE </a>
+<a class="btn btn-md btn-primary " href="
+https://blog.csdn.net/jack__cj/article/details/52671312
+" >vim 	plug</a>
+<a class="btn btn-md btn-primary " href="
+http://www.runoob.com/try/color.php?color=Black
+" >vim 	color</a>
 </p>
 走过的路:
 SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
@@ -45,6 +51,31 @@ SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too lo
 正解：https://segmentfault.com/a/1190000008416200
 ---
 php artisan config:cache
+<p>
+装了个ctags 和 taglist  
+
+用法：
+
+在主目录
+
+ctsgs -R  递归创建链接
+
+然后在 ~/.vimrc
+
+中要加入
+
+ 10 "设置tags搜索路径
+ 11 set tags=s./tags,./../tags,../../tags
+ 12 "开关tag窗口
+ 13 map <f9> :TlistToggle<CR>
+ 14 "imap <A-t> <Esc> <A-t>i
+ 15 "使用左侧窗口
+ 16 let Tlist_Use_Left_Window=1
+
+然后就可以使用：
+
+从ctrl + ] 和 ctrl + o 进行查找，还有F9 ，ctrl + 双w调出list 和切换窗口
+</p>
 
 </div>
 @stop
